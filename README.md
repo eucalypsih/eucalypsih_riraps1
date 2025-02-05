@@ -1,3 +1,11 @@
+## Off-by-One Errors
+### Deskripsi:
+Off-by-one error adalah kesalahan logika yang terjadi ketika loop atau kondisi tidak menangani batas dengan benar, sering kali menyebabkan iterasi yang salah atau akses memori yang tidak valid.
+```c
+
+```
+
+
 ## memory leaks
 #### Deskripsi:
 Memory leak terjadi ketika program mengalokasikan memori tetapi tidak membebaskannya setelah selesai digunakan. Ini dapat menyebabkan penggunaan memori yang berlebihan dan akhirnya mengakibatkan program kehabisan memori.
