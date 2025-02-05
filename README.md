@@ -2,6 +2,15 @@
 ### Deskripsi:
 Off-by-one error adalah kesalahan logika yang terjadi ketika loop atau kondisi tidak menangani batas dengan benar, sering kali menyebabkan iterasi yang salah atau akses memori yang tidak valid.
 ```c
+#include <stdio.h>
+
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    for (int i = 0; i <= 5; i++) { // Harusnya i < 5
+        printf("%d\n", arr[i]); // Akses di luar batas array
+    }
+    return 0;
+}
 
 ```
 
